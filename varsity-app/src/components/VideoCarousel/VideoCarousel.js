@@ -5,6 +5,7 @@ import { gql,useQuery ,useMutation} from '@apollo/client'
 import { Link } from 'react-router-dom';
 import LeftArrow from './LeftArrow';
 import RightArrow from './RightArrow';
+import "./VideoCaoursel.css"
 
 const GET_VIDEOS = gql`
 query {
@@ -25,7 +26,7 @@ function VideoCarousel() {
             <Carousel swiping={true} leftArrow={<LeftArrow/>} rightArrow={<RightArrow/>} show={4}>
                     {
                       data?.getVideos?.map(video => (
-                        <Link key={video.id} to={`/video/${video.id}`}><img src={video.thumbnail}/></Link>
+                        <Link key={video.id} to={`/video/${video.id}`}><span><img src={video.thumbnail}/></span></Link>
                       ))
                     }
             </Carousel>

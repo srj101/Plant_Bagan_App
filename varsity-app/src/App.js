@@ -4,7 +4,7 @@ import {  Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Shop from './components/Shop/Shop';
 import Offer from './components/Offer/Offer';
-import News from './components/News/News';
+import NewsSection from './components/NewsSection/NewsSection';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Video from './components/Videos/Video';
@@ -24,7 +24,7 @@ function App() {
         <Route path='/' element={<Home></Home>} ></Route>
         <Route  path='/shop' element={<Shop></Shop>} ></Route>
         <Route path='/offer' element={<Offer></Offer>} ></Route>
-        <Route path='/news' element={<News></News>} ></Route>
+        <Route path='/news' element={<NewsSection></NewsSection>} ></Route>
         <Route  path='/about' element={<About></About>} ></Route>
         <Route path='/contact' element={<Contact></Contact>} ></Route>
         <Route path='/videos' element={<Video></Video>} ></Route>

@@ -1,0 +1,12 @@
+.caoursel-container a, .caoursel-container a span {
+    display: block;
+}
+
+.caoursel-container a span:hover {filter: blur(0px);}
+
+.caoursel-container a span {
+    filter: opacity(0.8);
+    transition: filter .5s ease-out;
+    -webkit-transition: filter .5s ease-out;
+    position: relative;
+}

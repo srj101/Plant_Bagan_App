@@ -1,0 +1,14 @@
+span.rating {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.section-title-area {background: #F9F9FD;padding: 10px 0;}
+
+.caoursel-container a span .hover-content {opacity: 0;position: absolute;transition: all .2s ease-out;border-radius: 25px;}
+
+.caoursel-container a span:hover .hover-content {margin-top: 0;position: absolute;top: 0;left: 0;width: 100%;height: 87%;opacity: 1;background: rgba(0,0,0,0.5);color: #fff;display: flex;align-items: center;justify-content: center;flex-direction: column;font-style: italic;}
+.hover-content p {
+    font-size: 18px;
+}

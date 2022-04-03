@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
-
+@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
+@import '../node_modules/antd/dist/antd.css';
 
 /* TYPOGRAPHY */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
 
 
 .App {

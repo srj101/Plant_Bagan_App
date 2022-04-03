@@ -1,0 +1,7 @@
+.caoursel-container a, .caoursel-container a span {display: block;}
+
+.caoursel-container a span:hover {filter: blur(0px);}
+
+.caoursel-container a span {filter: blur(1px);transition: filter .3s ease;position: relative;}
+
+.videoCarousel .caoursel-container a span::after {content: "\f04b";position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #fff;font-size: 30px;font-family: 'Font Awesome 5 Free';font-weight: 900;}
